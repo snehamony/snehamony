@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menubar */
+.menubar {
+    background-color: rgb(221, 231, 240);
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.companyName {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.menuItem {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.login {
+    border: 1px solid green;
+    padding: 3px 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.login:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Menubar */
